@@ -346,7 +346,7 @@ body.dark-mode .entry-date {
     color: #aaa;
 }
 
-body.dark-mode .cancel-btn,
+body.dark-mode #cancelBtn,
 body.dark-mode .favorite-btn {
     background: #333333;
     color: #ffffff;
