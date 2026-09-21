@@ -45,7 +45,7 @@ The application is designed to work on:
 
 ## 📂 Project Structure
 
-
+```text
 journal-app/
 │
 ├── index.html
@@ -53,3 +53,4 @@ journal-app/
 ├── script.js
 ├── .gitignore
 └── README.md
+```
