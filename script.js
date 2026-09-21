@@ -16,7 +16,7 @@ const totalCharacters = document.getElementById("totalCharacters");
 const mostUsedMood = document.getElementById("mostUsedMood");
 const themeButton = document.getElementById("themeBtn");
 
-console.log(message);
+
 
 const savedEntries = localStorage.getItem("journalEntries");
 
@@ -341,7 +341,9 @@ saveButton.addEventListener("click", function () {
             day:"numeric",
             hour:"numeric",
             minute:"2-digit"
-        })
+        }),
+
+        favorite: false
     };
 
     journalEntries.push(entry);
