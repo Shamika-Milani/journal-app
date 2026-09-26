@@ -97,6 +97,8 @@ function updateStatistics(){
             characters = characters + entry.content.length;
         });
 
+        totalCharacters.textContent = characters;
+
         //MOST USED MOOD
 
         if (journalEntries.length === 0){
